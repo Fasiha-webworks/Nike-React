@@ -1,0 +1,906 @@
+* {
+    padding: 0;
+    margin: 0;
+    font-family: sans-serif;
+    box-sizing: border-box;
+}
+
+@font-face {
+    font-family: 'Bebas';
+    src: url("/fonts/BebasNeue-Regular.ttf");
+}
+
+@font-face {
+    font-family: 'Roboto';
+    src: url("/fonts/Roboto-VariableFont_wdth\,wght.ttf");
+}
+
+:root {
+    --primaryColor: #fff9f4;
+    --secondaryColor: #E5E5E5;
+}
+
+body {
+    margin: 0;
+    padding-top: 77px;
+    /* background-color: #E5E5E5; */
+}
+
+nav {
+    /* border: 2px solid black; */
+    height: 60px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    padding: 0px 86px;
+    box-shadow: 0 .5rem 1rem rgba(0, 0, 0, .15);
+    align-items: center;
+    background-color: #fff9f4;
+    position: fixed;
+    top: 0;
+}
+
+.logo-img {
+    width: 8%;
+    margin: 0px;
+    /* border: 2px solid black; */
+}
+
+.nav-links {
+    display: flex;
+    padding-right: 50px;
+
+}
+
+.items {
+    display: flex;
+    /* border: 2px solid black; */
+    font-size: 15px;
+
+}
+
+.items li {
+    padding: 10px 20px;
+}
+
+.items a {
+    display: inline-block;
+    white-space: nowrap;
+    padding: 10px 20px;
+    color: black;
+    font-style: normal;
+
+}
+
+.item {
+    list-style: none;
+    color: rgb(0, 0, 0);
+    ;
+
+}
+
+.item1  {
+    list-style: none;
+    color:rgba(0, 0, 0, .9);
+
+}
+
+.item1  a {
+    color: #09090a;
+    font-weight: 400;
+    font-style: normal;
+
+}
+.item  a {
+    color: #0000008C;
+    /* font-weight: 400; */
+    font-style: normal;
+
+}
+
+a {
+    text-decoration: none;
+}
+
+.logo-section {
+    display: flex;
+
+}
+
+.nike {
+    font-size: 20px;
+    color: #ff8367;
+    font-weight: 400;
+    font-style: normal;
+
+}
+
+.react {
+    font-size: 20px;
+    color: black;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.icon {
+    display: none;
+}
+
+/* Navbar End */
+/* herosection start */
+.hero-section {
+    width: 100%;
+    background-color: var(--primaryColor);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 60px;
+    padding-bottom: 70px;
+
+}
+
+.hero-section .shoe {
+    width: 40%;
+}
+
+.hero-section .shoe img {
+    width: 100%;
+}
+
+.hero-section .content {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.hero-section .content button {
+    width: 30%;
+    outline: none;
+    border: none;
+    background: transparent;
+    background-color: #3D4FF3;
+    padding: 15px 7px;
+    color: white;
+    border-radius: 5px;
+}
+
+.hero-section .content button span {
+    text-transform: uppercase;
+}
+
+.hero-section .content .custom {
+    color: #ff8367;
+}
+
+.hero-section .content h1 {
+    font-family: 'Bebas';
+    font-size: 80px;
+    padding: 0;
+    margin: 0;
+    color: #363958;
+}
+
+/* herosection end */
+
+/* casual shoes section start */
+.casual {
+    background-color: var(--secondaryColor);
+}
+
+.casual .shoes {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.casual .shoes .shoes1 {
+    background: #fff;
+    width: 320px;
+    border: 2px solid rgba(0, 0, 0, .125);
+    padding: 15px;
+    border-radius: 20px;
+    box-shadow: 0px 10px 30px rgba(0, 0, 0, 0.05);
+}
+
+.casual .shoes1 img {
+    height: 300px;
+    border-radius: 20px;
+    width: 100%;
+    background: #F1F1F1;
+}
+
+.casual .casualshoes {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.casual .heading h1 {
+    font-family: 'Bebas';
+    color: #363958;
+    font-weight: 400;
+    line-height: 1.5;
+    font-size: 50px;
+    padding-left: 95px;
+}
+
+.casual .dollar {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 15px;
+    align-items: center;
+}
+
+.casual .dollar button {
+    width: 40%;
+    outline: none;
+    border: none;
+    background: transparent;
+    background-color: #3D4FF3;
+    padding: 15px 7px;
+    color: white;
+    border-radius: 5px;
+    text-transform: uppercase;
+}
+
+.casual .dollar .custom {
+    color: #ff8367;
+    font-size: 24px;
+    font-weight: 1000px;
+    font: bold;
+}
+
+.casual .content h2 {
+    color: #363958;
+    font-size: 23px;
+    font-family: 'Roboto';
+    margin-top: 10px;
+}
+
+.casual .content p {
+    font-size: 14px;
+    font-weight: 400;
+    font-family: 'Roboto';
+    margin-top: 10px;
+}
+
+
+
+
+
+/* casual shoes section end */
+/* formal shoes section start */
+
+.formal .formalshoes {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.formal .heading h1 {
+    font-family: 'Bebas';
+    color: #363958;
+    font-weight: 400;
+    line-height: 1.5;
+    font-size: 50px;
+    padding-left: 95px;
+}
+
+.formal .dollar {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 15px;
+    align-items: center;
+}
+
+.formal .dollar button {
+    width: 40%;
+    outline: none;
+    border: none;
+    background: transparent;
+    background-color: #3D4FF3;
+    padding: 15px 7px;
+    color: white;
+    border-radius: 5px;
+    text-transform: uppercase;
+}
+
+.formal .dollar .custom {
+    color: #ff8367;
+    font-size: 24px;
+    font-weight: 1000px;
+    font: bold;
+}
+
+.formal {
+    background-color: var(--secondaryColor);
+    padding-top: 30px;
+}
+
+.formalshoes .shoes4 {
+    background: #fff;
+    width: 320px;
+    border: 2px solid rgba(0, 0, 0, .125);
+    padding: 20px;
+    border-radius: 20px;
+    box-shadow: 0px 10px 30px rgba(0, 0, 0, 0.05);
+}
+
+.formal .shoes4 img {
+    height: 300px;
+    width: 100%;
+
+}
+
+.formalshoes .content h2 {
+    color: #363958;
+    font-size: 23px;
+    font-family: 'Roboto';
+    margin-top: 10px;
+}
+
+.formalshoes .content p {
+    font-size: 14px;
+    font-weight: 400;
+    font-family: 'Roboto';
+    margin-top: 10px;
+}
+
+/* formal shoes section end */
+
+/* Seller section start */
+.Seller {
+    background: var(--secondaryColor);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 40px;
+    padding: 60px 90px;
+
+}
+
+.cards {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    width: 50%;
+}
+
+.housecontent {
+    border: 2px solid var(--primaryColor);
+    border-radius: 20px;
+    height: 128px;
+    width: 100%;
+    align-items: center;
+    display: flex;
+    background: #fff;
+    box-shadow: 0px 10px 30px rgba(0, 0, 0, 0.05);
+}
+
+.housecontent img {
+    height: 90px;
+    padding: 0px 40px;
+}
+
+.housecontent .Perfect {
+    margin-bottom: .5rem;
+}
+
+.housecontent .Perfect h5 {
+    color: #363958;
+    font-weight: 1000;
+    font-size: 20px;
+    font-family: 'Roboto';
+    margin-bottom: .5rem;
+}
+
+.housecontent .Perfect p {
+    margin-bottom: 5px;
+    font-weight: 400;
+    font-size: 16px;
+    color: rgba(0, 0, 0, 0.774);
+}
+
+.Seller .shoppingimg img {
+    width: 100%;
+}
+
+.Seller .shoppingimg {
+    width: 50%;
+}
+
+/* Seller section end */
+
+/* Email section start */
+.submits {
+    border: 2px solid rgba(0, 0, 0, .125);
+    height: 180px;
+    width: 90%;
+    box-shadow: 0px 10px 30px rgba(0, 0, 0, 0.05);
+    background: var(--primaryColor);
+    text-align: center;
+    align-items: center;
+    border-radius: 20px;
+    /* padding: 12px; */
+
+}
+.last{
+    display: flex;
+    padding: 20px;
+    width: 100%;
+    justify-content: center;
+    background: var(--secondaryColor);
+}
+.form h4 {
+    padding: 12px;
+    font-size: 24px;
+    font-family: 'Roboto';
+    font-weight: 1000;
+    color: #363958;
+    text-transform: uppercase;
+}
+.search{
+    padding: 20px;
+}
+.search1 {
+    width: 80%;
+    height: 40px;
+    border-color:rgba(0, 0, 0, 0.336);
+    border-radius: 5px;
+    border-top-right-radius: 0;
+    border-bottom-right-radius: 0;
+
+    
+}
+.search .search1 input{
+    border-right: none;
+}
+.submit{
+    height: 39px;
+    width: 10%;
+    color: white;
+    background-color: #3D4FF3;
+    padding: 10px;
+    border: none;
+    margin: 0;
+    border: none;
+    border-radius: 5px;
+    border-top-left-radius: 0;
+    border-bottom-left-radius: 0;
+    font-size: 16px;
+    font-family: 'Roboto';
+}
+/* Email section end */
+
+/* Footer section start */
+.footer{
+    background-color: var(--secondaryColor);
+    padding-top: 20px;
+}
+.cardX  {
+    /* border: 2px solid black; */
+    width: 100%;
+    height: 300px;
+    background-color:var(--primaryColor);
+}
+.info2{
+    display: flex;
+    justify-content: space-around;
+    padding: 50px;
+    padding-bottom: 0;
+}
+
+.QL{
+    font-size: 20px;
+    font-family: 'Roboto';
+    font-weight: 600;
+    color: #363958;
+    text-transform: uppercase;
+}
+.hc{
+    margin-bottom: 12px;
+}
+.hvac{
+    list-style: none;
+    margin-top: 18px;
+    color: #212529;
+  
+}
+.Reserved h6{
+    text-align: center;
+    padding-top: 50px;
+    font-size: 15px;
+    font-weight: 500;
+    line-height: 1.2;
+ 
+}
+.Reserved span{
+    color:#ff8367 ;
+}
+
+/* Footer section end */
+
+
+
+
+
+
+
+/* Media Quries */
+
+@media (min-width: 1025px) {
+    .icon {
+        display: none;
+    }
+}
+
+@media (max-width: 1024px) {
+    nav {
+        padding: 0 40px;
+    }
+
+    .items a {
+        padding: 10px 12px;
+        font-size: 14px;
+    }
+
+    .logo-img {
+        width: 10%;
+    }
+
+    /* casual */
+
+}
+
+@media (max-width: 769px) {
+
+    nav {
+        padding: 0 20px;
+    }
+
+    .nav-links {
+        display: none;
+        /* hide menu */
+    }
+
+    .icon {
+        display: block;
+        font-size: 24px;
+        cursor: pointer;
+    }
+
+    .logo-img {
+        width: 18%;
+    }
+
+    .nike,
+    .react {
+        font-size: 16px;
+    }
+
+    .hero-section {
+        flex-direction: column;
+        padding: 10px 27px;
+    }
+
+    .hero-section .shoe {
+        width: 100%;
+    }
+
+    .hero-section .content button {
+        width: 36%;
+    }
+
+    /* casual */
+    .casual .shoes {
+        flex-direction: column;
+        align-items: center;
+        gap: 30px;
+        justify-content: flex-start;
+    }
+
+    .casual .shoes1 {
+        width: 100%;
+        /* max-width: 520px; */
+
+    }
+
+    .shoes .shoes1 {
+        width: 70% !important;
+    }
+
+    .casual {
+        padding: 55px 29px;
+    }
+
+    /* formal */
+    .formal .formalshoes {
+        flex-direction: column;
+        align-items: center;
+        gap: 30px;
+
+    }
+
+    .formal .shoes4 {
+        width: 80%;
+        max-width: 520px;
+
+    }
+
+    .formal {
+        padding: 55px 29px;
+    }
+
+    /* .Seller */
+
+    .Seller {
+        flex-direction: column;
+        align-items: center;
+        gap: 30px;
+        padding: 30px 20px;
+    }
+
+    .cards {
+        width: 90%;
+        align-items: center;
+    }
+
+    .housecontent {
+        width: 80% !important;
+        height: auto;
+        padding: 20px;
+    }
+
+    .housecontent img {
+        height: 80px;
+        padding: 0 20px;
+    }
+
+    .Seller .shoppingimg {
+        display: flex;
+        justify-content: center;
+    }
+
+    .Seller .shoppingimg img {
+        width: 60%;
+    }
+    /* Footer */
+    .submits {
+        width: 95%;
+        height: auto;
+    }
+    
+
+    .form h4 {
+        font-size: 20px;
+    }
+
+    .search {
+        display: flex;
+        justify-content: center;
+    }
+
+    .search1 {
+        width: 65%;
+        height: 40px;
+    }
+
+    .submit {
+        width: 25%;
+        height: 40px;
+    }
+
+    
+    .info2 {
+        flex-wrap: wrap;
+        padding: 30px;
+    }
+
+    .hp {
+        width: 45%;
+        margin-bottom: 25px;
+    }
+
+    .QL {
+        font-size: 19px;
+    }
+
+    .cardX {
+        height: auto;
+    
+}
+}
+
+
+
+
+
+
+
+
+@media (max-width: 480px) {
+
+
+
+    nav {
+        height: 55px;
+    }
+
+    .logo-img {
+        width: 22%;
+    }
+
+    .nike,
+    .react {
+        font-size: 14px;
+    }
+
+    .icon {
+        font-size: 22px;
+    }
+
+    .hero-section {
+        flex-direction: column;
+        padding: 10px 27px;
+    }
+
+    .hero-section .shoe {
+        width: 100%;
+    }
+
+    .hero-section .content button {
+        width: 43%;
+    }
+
+    /* casual */
+    .casual .shoes {
+        flex-direction: column;
+        gap: 30px;
+    }
+
+    .casual .shoes1 {
+        width: 100% !important;
+        max-width: none;
+    }
+
+    .casual {
+        padding: 55px 29px;
+    }
+
+    .casual .heading h1 {
+        padding-left: 0;
+    }
+
+    /* formal */
+    .formal .heading h1 {
+        padding-left: 0;
+    }
+
+    .formal .formalshoes {
+        flex-direction: column;
+        gap: 30px;
+    }
+
+    .formal .shoes4 {
+        width: 100%;
+        max-width: none;
+    }
+
+    .formal {
+        padding: 55px 29px;
+    }
+
+    .formal .heading h1 {
+        padding-left: 0;
+    }
+
+    .formal {
+        padding-top: 0;
+    }
+
+    /* Seller */
+
+    .Seller {
+        flex-direction: column;
+        padding: 20px 15px;
+        gap: 20px;
+    }
+
+    .cards {
+        width: 100%;
+    }
+    .housecontent {
+        width: 92%;
+        height: auto;
+        padding: 12px;
+        flex-direction: row;
+    }
+
+    .housecontent img {
+        height: 55px;
+        padding: 0 12px;
+    }
+
+    .Perfect h5 {
+        font-size: 15px;
+        margin-bottom: 6px;
+    }
+
+    .Perfect p {
+        font-size: 13px;
+        line-height: 1.4;
+    }
+
+    .shoppingimg {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+    }
+
+    .shoppingimg img {
+        width: 100%;
+    }
+    /* Footer start */
+    
+    .last {
+        padding: 10px;
+    }
+
+    .submits {
+        width: 100%;
+        height: auto;
+        padding: 15px;
+        border-radius: 15px;
+    }
+
+    .form h4 {
+        font-size: 16px;
+        padding: 8px;
+    }
+
+    .search {
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+        padding: 10px;
+    }
+
+    .search1 {
+        width: 100%;
+        height: 38px;
+        border-radius: 5px;
+    }
+
+    .submit {
+        width: 100%;
+        height: 38px;
+        border-radius: 5px;
+        font-size: 14px;
+    }
+
+    /* Footer */
+    .info2 {
+        flex-direction: column;
+        text-align: center;
+        align-items: center;
+        padding: 20px;
+    }
+
+    .hp {
+        margin-bottom: 25px;
+    }
+
+    .QL {
+        font-size: 18px;
+    }
+
+    .hc {
+        font-size: 14px;
+    }
+
+    .Reserved h6 {
+        font-size: 12px;
+        padding: 20px 10px;
+    }
+
+    .cardX {
+        height: auto;
+    }
+}
